@@ -1,0 +1,3 @@
+[submodule "champions-league"]
+	path = champions-league
+	url = https://github.com/openfootball/champions-league.git

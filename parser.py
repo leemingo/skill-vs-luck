@@ -1,14 +1,21 @@
+import datetime as dt
 import re
 import requests
 import pandas as pd
 from pathlib import Path
-
+from typing import Optional
 
 # ---------- 1) Utility: score_blob parsing ----------
 score_pair = re.compile(r"(\d+)\s*-\s*(\d+)")                 # e.g., 2-1
 ht_paren   = re.compile(r"\(([^)]+)\)")                        # e.g., (1-0) or (2-2, 2-0)
 has_pen    = re.compile(r"\bpen\.?\b", re.I)                   # pen. / PEN.
 has_aet    = re.compile(r"\ba\.?e\.?t\.?\b", re.I)             # a.e.t. / aet
+
+MONTH_MAP = {
+    "Jan": 1, "Feb": 2, "Mar": 3, "Apr": 4, "May": 5, "Jun": 6,
+    "Jul": 7, "Aug": 8, "Sep": 9, "Oct": 10, "Nov": 11, "Dec": 12,
+}
+
 
 def parse_score_blob(blob: str):
     """
@@ -157,3 +164,172 @@ def parse_worldcup_txt(url: str, section_kind="group"):
             out.append(row)
 
     return pd.DataFrame(out)
+
+def parse_champions_league_txt_file(file_path: Path, season: str) -> pd.DataFrame:
+    """
+    Champions League 텍스트 파일을 파싱하여 DataFrame으로 변환
+    
+    Parameters:
+    -----------
+    file_path : Path
+        cl.txt 파일 경로
+    season : str
+        시즌 (예: "2011-12")
+    
+    Returns:
+    --------
+    pd.DataFrame
+        컬럼: season, date, time, stage, section, home_team, away_team,
+              home_goals, away_goals, ht_home, ht_away, has_penalty, has_aet
+    """
+    rows = []
+    start_year = int(season.split("-")[0])
+    
+    current_date: Optional[dt.date] = None
+    current_stage: Optional[str] = None
+    current_section: Optional[str] = None
+    
+    with file_path.open(encoding="utf-8") as f:
+        for line in f:
+            line = line.rstrip()
+            
+            # 빈 줄 건너뛰기
+            if not line:
+                continue
+            
+            # 헤더 라인 건너뛰기 (= 로 시작하거나 # 로 시작)
+            if line.startswith("=") or line.startswith("#"):
+                continue
+            
+            # 그룹/라운드 헤더 (» 로 시작)
+            if line.startswith("»"):
+                current_section = line.replace("»", "").strip()
+                # Stage 분류
+                if "Group" in current_section:
+                    current_stage = "Group Stage"
+                elif "Round of 16" in current_section or "Round of" in current_section:
+                    current_stage = "Round of 16"
+                elif "Quarter" in current_section or "Quarterfinals" in current_section:
+                    current_stage = "Quarterfinals"
+                elif "Semi" in current_section or "Semifinals" in current_section:
+                    current_stage = "Semifinals"
+                elif "Final" in current_section:
+                    current_stage = "Final"
+                else:
+                    current_stage = "Other"
+                continue
+            
+            # 날짜 라인 (요일 + 월/일 형식)
+            # 예: "  Wed Sep/14 2011" 또는 "  Tue Sep/27"
+            date_match = re.match(r"^\s+(\w+)\s+(\w+)/(\d{1,2})(?:\s+(\d{4}))?", line)
+            if date_match:
+                weekday, mon_str, day_str, year_str = date_match.groups()
+                
+                if mon_str not in MONTH_MAP:
+                    continue
+                
+                month = MONTH_MAP[mon_str]
+                day = int(day_str)
+                
+                # 연도 처리: 명시되어 있으면 사용, 없으면 시즌 시작 연도 사용
+                if year_str:
+                    year = int(year_str)
+                else:
+                    # 7월 이전은 다음 해로 간주 (시즌이 다음 해까지 이어지므로)
+                    year = start_year + 1 if month < 7 else start_year
+                
+                current_date = dt.date(year, month, day)
+                continue
+            
+            # 경기 라인 파싱
+            # 형식: "    20.45  Team A (COUNTRY)   v Team B (COUNTRY)         1-1 (0-0)"
+            # 또는: "           Team A (COUNTRY)   v Team B (COUNTRY)         1-1 (0-0)"
+            match_line = re.match(
+                r"^\s+(?:(\d{1,2}\.\d{2})\s+)?(.+?)\s+v\s+(.+?)\s+(\d+)-(\d+)(?:\s+\((\d+)-(\d+)\))?(?:\s+(.+))?$",
+                line
+            )
+            
+            if match_line and current_date is not None:
+                time_str, home_part, away_part, home_goals, away_goals, ht_home, ht_away, extra = match_line.groups()
+                
+                # 팀 이름에서 국가 코드 제거 (괄호 안의 내용)
+                home_team = re.sub(r"\s*\([^)]+\)\s*$", "", home_part).strip()
+                away_team = re.sub(r"\s*\([^)]+\)\s*$", "", away_part).strip()
+                
+                # 승부차기/연장전 확인
+                has_penalty = False
+                has_aet = False
+                if extra:
+                    has_penalty = bool(re.search(r"\bpen\.?\b", extra, re.I))
+                    has_aet = bool(re.search(r"\ba\.?e\.?t\.?\b", extra, re.I))
+                
+                rows.append({
+                    "season": season,
+                    "date": current_date.isoformat(),
+                    "time": time_str if time_str else None,
+                    "stage": current_stage,
+                    "section": current_section,
+                    "home_team": home_team,
+                    "away_team": away_team,
+                    "home_goals": int(home_goals),
+                    "away_goals": int(away_goals),
+                    "ht_home": int(ht_home) if ht_home else None,
+                    "ht_away": int(ht_away) if ht_away else None,
+                    "has_penalty": has_penalty,
+                    "has_aet": has_aet,
+                    "source_file": file_path.name
+                })
+    
+    return pd.DataFrame(rows)
+
+
+def parse_champions_league_directory(
+    root: str | Path,
+    min_season: str | None = None
+) -> pd.DataFrame:
+    """
+    Champions League 디렉토리에서 모든 시즌 데이터를 파싱
+    
+    Parameters:
+    -----------
+    root : str | Path
+        champions-league 디렉토리 경로
+    min_season : str, optional
+        최소 시즌 (예: "2010-11")
+    
+    Returns:
+    --------
+    pd.DataFrame
+        모든 시즌의 경기 데이터
+    """
+    root = Path(root)
+    all_dfs = []
+    
+    for season_dir in sorted(root.iterdir()):
+        if not season_dir.is_dir():
+            continue
+        
+        # 시즌 디렉토리 이름 형식 확인 (YYYY-YY)
+        if not re.match(r"^\d{4}-\d{2}$", season_dir.name):
+            continue
+        
+        season = season_dir.name
+        
+        if min_season is not None and season < min_season:
+            continue
+        
+        # cl.txt 파일 찾기
+        cl_file = season_dir / "cl.txt"
+        if cl_file.exists():
+            df = parse_champions_league_txt_file(cl_file, season)
+            all_dfs.append(df)
+            print(f"✓ Parsed {season}: {len(df)} matches")
+        else:
+            print(f"⚠ No cl.txt found in {season}")
+    
+    if not all_dfs:
+        return pd.DataFrame()
+    
+    result_df = pd.concat(all_dfs, ignore_index=True)
+    return result_df
+
