@@ -1,0 +1,16 @@
+{
+  "saved_at_utc": "2026-03-24T10:12:22.175733+00:00",
+  "sports": {
+    "badminton": {
+      "status": "failed",
+      "error": "GET https://api.sportradar.com/badminton/trial/v2/en/competitions.json failed: 403\n\n      <!DOCTYPE html>\n      <html lang=\"en\">\n        <head>\n          <meta charset=\"utf-8\">\n          <title>Authentication Error</title>\n        </head>\n        <body>\n          <p>Authentication Error</p>\n        </body>\n      </html>\n      ",
+      "competition_count": 0,
+      "season_count": 0,
+      "match_count": 0,
+      "details": []
+    }
+  },
+  "total_competition_count": 0,
+  "total_season_count": 0,
+  "total_match_count": 0
+}

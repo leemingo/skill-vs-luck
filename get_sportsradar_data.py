@@ -14,13 +14,15 @@ from typing import Any, Dict, List, Set, Tuple, Optional
 #   python get_sportsradar_data.py
 # -----------------------------------------------------------------------------
 
-API_KEY = os.getenv("SPORTRADAR_API_KEY")
+# API_KEY = os.getenv("SPORTRADAR_API_KEY")
+API_KEY = "TJdbSPgkFnJ91mtqdFs6lbnGT1W6lx2ww0zxM6zo"
 if not API_KEY:
     raise ValueError("SPORTRADAR_API_KEY is not set")
 
 ACCESS_LEVEL = "trial"
 LANG = "en"
-SPORTS = ["tabletennis", "badminton"]
+# SPORTS = ["tabletennis", "badminton"]
+SPORTS = ["badminton"]
 
 MAX_RETRIES = 5
 REQUEST_INTERVAL_SEC = 1.3
