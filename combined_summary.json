@@ -1,16 +1,5364 @@
 {
-  "saved_at_utc": "2026-03-24T10:12:22.175733+00:00",
+  "saved_at_utc": "2026-03-24T10:13:47.423189+00:00",
   "sports": {
     "badminton": {
-      "status": "failed",
-      "error": "GET https://api.sportradar.com/badminton/trial/v2/en/competitions.json failed: 403\n\n      <!DOCTYPE html>\n      <html lang=\"en\">\n        <head>\n          <meta charset=\"utf-8\">\n          <title>Authentication Error</title>\n        </head>\n        <body>\n          <p>Authentication Error</p>\n        </body>\n      </html>\n      ",
-      "competition_count": 0,
-      "season_count": 0,
-      "match_count": 0,
-      "details": []
+      "status": "success",
+      "competition_count": 483,
+      "season_count": 720,
+      "match_count": 25417,
+      "details": [
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:557",
+          "competition_name": "Olympic Tournament",
+          "season_count": 3,
+          "match_count": 172,
+          "season_ids": [
+            "sr:season:34207",
+            "sr:season:84966",
+            "sr:season:105549"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:558",
+          "competition_name": "Olympic Tournament, Women",
+          "season_count": 3,
+          "match_count": 167,
+          "season_ids": [
+            "sr:season:34233",
+            "sr:season:84970",
+            "sr:season:105515"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:559",
+          "competition_name": "Olympic Tournament, Doubles",
+          "season_count": 3,
+          "match_count": 100,
+          "season_ids": [
+            "sr:season:34277",
+            "sr:season:84968",
+            "sr:season:119999"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:560",
+          "competition_name": "Olympic Tournament, Women, Doubles",
+          "season_count": 3,
+          "match_count": 96,
+          "season_ids": [
+            "sr:season:34275",
+            "sr:season:84972",
+            "sr:season:105551"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:561",
+          "competition_name": "Olympic Tournament, Mixed Doubles",
+          "season_count": 3,
+          "match_count": 93,
+          "season_ids": [
+            "sr:season:34279",
+            "sr:season:84974",
+            "sr:season:105553"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:1578",
+          "competition_name": "Hong Kong Open, MS",
+          "season_count": 3,
+          "match_count": 132,
+          "season_ids": [
+            "sr:season:110445",
+            "sr:season:123525",
+            "sr:season:134907"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:2082",
+          "competition_name": "Syed Modi India International, MS",
+          "season_count": 3,
+          "match_count": 106,
+          "season_ids": [
+            "sr:season:59896",
+            "sr:season:73059",
+            "sr:season:137168"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:14977",
+          "competition_name": "Austrian Open, Singles",
+          "season_count": 3,
+          "match_count": 155,
+          "season_ids": [
+            "sr:season:75765",
+            "sr:season:83776",
+            "sr:season:130757"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:17790",
+          "competition_name": "World Championships, Doubles",
+          "season_count": 3,
+          "match_count": 140,
+          "season_ids": [
+            "sr:season:96901",
+            "sr:season:109229",
+            "sr:season:133997"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:17792",
+          "competition_name": "World Championships, Women Singles",
+          "season_count": 3,
+          "match_count": 157,
+          "season_ids": [
+            "sr:season:96909",
+            "sr:season:109233",
+            "sr:season:134001"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:17794",
+          "competition_name": "World Championships, Women Doubles",
+          "season_count": 3,
+          "match_count": 142,
+          "season_ids": [
+            "sr:season:96907",
+            "sr:season:109235",
+            "sr:season:134003"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:17796",
+          "competition_name": "World Championships, Mixed Doubles",
+          "season_count": 3,
+          "match_count": 141,
+          "season_ids": [
+            "sr:season:96903",
+            "sr:season:109231",
+            "sr:season:133999"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19218",
+          "competition_name": "Vietnam Open, MD",
+          "season_count": 3,
+          "match_count": 123,
+          "season_ids": [
+            "sr:season:110437",
+            "sr:season:123517",
+            "sr:season:134899"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19220",
+          "competition_name": "Vietnam Open, XD",
+          "season_count": 3,
+          "match_count": 123,
+          "season_ids": [
+            "sr:season:110441",
+            "sr:season:123519",
+            "sr:season:134901"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19222",
+          "competition_name": "Vietnam Open, MS",
+          "season_count": 3,
+          "match_count": 199,
+          "season_ids": [
+            "sr:season:110433",
+            "sr:season:123515",
+            "sr:season:134897"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19230",
+          "competition_name": "Vietnam Open, WS",
+          "season_count": 3,
+          "match_count": 135,
+          "season_ids": [
+            "sr:season:110435",
+            "sr:season:123521",
+            "sr:season:134903"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19234",
+          "competition_name": "Thailand Open (WT), Singles",
+          "season_count": 3,
+          "match_count": 134,
+          "season_ids": [
+            "sr:season:105825",
+            "sr:season:118369",
+            "sr:season:130587"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19236",
+          "competition_name": "Vietnam Open, WD",
+          "season_count": 3,
+          "match_count": 101,
+          "season_ids": [
+            "sr:season:110439",
+            "sr:season:123523",
+            "sr:season:134905"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19286",
+          "competition_name": "Kharkiv International (IC), Singles",
+          "season_count": 1,
+          "match_count": 31,
+          "season_ids": [
+            "sr:season:70720"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19288",
+          "competition_name": "Kharkiv International (IC), Mixed Doubles",
+          "season_count": 1,
+          "match_count": 28,
+          "season_ids": [
+            "sr:season:70728"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19290",
+          "competition_name": "Kharkiv International (IC), Women, Singles",
+          "season_count": 1,
+          "match_count": 33,
+          "season_ids": [
+            "sr:season:70722"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19292",
+          "competition_name": "Kharkiv International (IC), Doubles",
+          "season_count": 1,
+          "match_count": 23,
+          "season_ids": [
+            "sr:season:70724"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19294",
+          "competition_name": "Kharkiv International (IC), Women Doubles",
+          "season_count": 1,
+          "match_count": 22,
+          "season_ids": [
+            "sr:season:70726"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19428",
+          "competition_name": "Belgian International 2025, MS",
+          "season_count": 2,
+          "match_count": 98,
+          "season_ids": [
+            "sr:season:70904",
+            "sr:season:134841"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19430",
+          "competition_name": "Belgian International, WS",
+          "season_count": 2,
+          "match_count": 85,
+          "season_ids": [
+            "sr:season:70906",
+            "sr:season:134849"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19432",
+          "competition_name": "Belgian International, Doubles",
+          "season_count": 1,
+          "match_count": 23,
+          "season_ids": [
+            "sr:season:70908"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19434",
+          "competition_name": "Belgian International, WD",
+          "season_count": 2,
+          "match_count": 46,
+          "season_ids": [
+            "sr:season:70910",
+            "sr:season:134851"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19436",
+          "competition_name": "Belgian International, Mixed Doubles",
+          "season_count": 1,
+          "match_count": 23,
+          "season_ids": [
+            "sr:season:70912"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19740",
+          "competition_name": "Japan Open, Singles",
+          "season_count": 3,
+          "match_count": 107,
+          "season_ids": [
+            "sr:season:108365",
+            "sr:season:122579",
+            "sr:season:132504"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19742",
+          "competition_name": "Japan Open, Women, Singles",
+          "season_count": 3,
+          "match_count": 101,
+          "season_ids": [
+            "sr:season:108371",
+            "sr:season:122585",
+            "sr:season:132510"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19744",
+          "competition_name": "Japan Open , Doubles",
+          "season_count": 3,
+          "match_count": 104,
+          "season_ids": [
+            "sr:season:108367",
+            "sr:season:122581",
+            "sr:season:132506"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19746",
+          "competition_name": "Japan Open, Women, Doubles",
+          "season_count": 3,
+          "match_count": 98,
+          "season_ids": [
+            "sr:season:108373",
+            "sr:season:122587",
+            "sr:season:132512"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19748",
+          "competition_name": "Japan Open, Mixed Doubles",
+          "season_count": 3,
+          "match_count": 98,
+          "season_ids": [
+            "sr:season:108369",
+            "sr:season:122583",
+            "sr:season:132508"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19790",
+          "competition_name": "Polish International, MS",
+          "season_count": 2,
+          "match_count": 107,
+          "season_ids": [
+            "sr:season:70924",
+            "sr:season:135183"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19792",
+          "competition_name": "Polish International, MD",
+          "season_count": 2,
+          "match_count": 61,
+          "season_ids": [
+            "sr:season:70930",
+            "sr:season:135185"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19794",
+          "competition_name": "Polish International, WS",
+          "season_count": 2,
+          "match_count": 85,
+          "season_ids": [
+            "sr:season:70928",
+            "sr:season:135189"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19796",
+          "competition_name": "Polish International, WD",
+          "season_count": 2,
+          "match_count": 47,
+          "season_ids": [
+            "sr:season:70932",
+            "sr:season:135191"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19798",
+          "competition_name": "Polish International, XD",
+          "season_count": 2,
+          "match_count": 63,
+          "season_ids": [
+            "sr:season:70934",
+            "sr:season:135187"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19938",
+          "competition_name": "Czech International Future Series, MS",
+          "season_count": 1,
+          "match_count": 105,
+          "season_ids": [
+            "sr:season:131571"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19940",
+          "competition_name": "Czech International Future Series, MD",
+          "season_count": 1,
+          "match_count": 23,
+          "season_ids": [
+            "sr:season:131573"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19942",
+          "competition_name": "Czech International Future Series, WS",
+          "season_count": 1,
+          "match_count": 49,
+          "season_ids": [
+            "sr:season:131575"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19944",
+          "competition_name": "Czech International Future Series, WD",
+          "season_count": 1,
+          "match_count": 21,
+          "season_ids": [
+            "sr:season:131577"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:19946",
+          "competition_name": "Czech International Future Series, XD",
+          "season_count": 1,
+          "match_count": 24,
+          "season_ids": [
+            "sr:season:131579"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:20316",
+          "competition_name": "Dutch Open, MS",
+          "season_count": 3,
+          "match_count": 98,
+          "season_ids": [
+            "sr:season:71708",
+            "sr:season:125343",
+            "sr:season:135623"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:20318",
+          "competition_name": "Dutch Open, MD",
+          "season_count": 3,
+          "match_count": 56,
+          "season_ids": [
+            "sr:season:71712",
+            "sr:season:125345",
+            "sr:season:135625"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:20320",
+          "competition_name": "Dutch Open, WS",
+          "season_count": 3,
+          "match_count": 65,
+          "season_ids": [
+            "sr:season:71710",
+            "sr:season:125349",
+            "sr:season:135629"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:20322",
+          "competition_name": "Dutch Open, WD",
+          "season_count": 3,
+          "match_count": 44,
+          "season_ids": [
+            "sr:season:71714",
+            "sr:season:125353",
+            "sr:season:135631"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:20324",
+          "competition_name": "Dutch Open, XD",
+          "season_count": 3,
+          "match_count": 55,
+          "season_ids": [
+            "sr:season:71716",
+            "sr:season:125347",
+            "sr:season:135627"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:20580",
+          "competition_name": "Denmark Open, MS",
+          "season_count": 3,
+          "match_count": 100,
+          "season_ids": [
+            "sr:season:111918",
+            "sr:season:125157",
+            "sr:season:135939"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:20582",
+          "competition_name": "Denmark Open, MD",
+          "season_count": 3,
+          "match_count": 97,
+          "season_ids": [
+            "sr:season:111920",
+            "sr:season:125159",
+            "sr:season:135943"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:20584",
+          "competition_name": "Denmark Open, WS",
+          "season_count": 3,
+          "match_count": 97,
+          "season_ids": [
+            "sr:season:111924",
+            "sr:season:125163",
+            "sr:season:135947"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:20586",
+          "competition_name": "Denmark Open, WD",
+          "season_count": 3,
+          "match_count": 90,
+          "season_ids": [
+            "sr:season:111926",
+            "sr:season:125165",
+            "sr:season:135949"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:20588",
+          "competition_name": "Denmark Open, XD",
+          "season_count": 3,
+          "match_count": 96,
+          "season_ids": [
+            "sr:season:111922",
+            "sr:season:125161",
+            "sr:season:135945"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:20638",
+          "competition_name": "French Open, MD",
+          "season_count": 3,
+          "match_count": 96,
+          "season_ids": [
+            "sr:season:112176",
+            "sr:season:116309",
+            "sr:season:136292"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:20640",
+          "competition_name": "French Open, XD",
+          "season_count": 3,
+          "match_count": 96,
+          "season_ids": [
+            "sr:season:112178",
+            "sr:season:116311",
+            "sr:season:136294"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:20642",
+          "competition_name": "French Open, MS",
+          "season_count": 3,
+          "match_count": 105,
+          "season_ids": [
+            "sr:season:112174",
+            "sr:season:116307",
+            "sr:season:136290"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:20644",
+          "competition_name": "French Open, WD",
+          "season_count": 3,
+          "match_count": 100,
+          "season_ids": [
+            "sr:season:112182",
+            "sr:season:116315",
+            "sr:season:136298"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:20646",
+          "competition_name": "French Open, WS",
+          "season_count": 3,
+          "match_count": 100,
+          "season_ids": [
+            "sr:season:112180",
+            "sr:season:116313",
+            "sr:season:136296"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:20908",
+          "competition_name": "Bitburger Open (GPG), Singles",
+          "season_count": 3,
+          "match_count": 202,
+          "season_ids": [
+            "sr:season:11886",
+            "sr:season:36004",
+            "sr:season:47014"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:20910",
+          "competition_name": "Bitburger Open (GPG), Women, Singles",
+          "season_count": 3,
+          "match_count": 99,
+          "season_ids": [
+            "sr:season:47018",
+            "sr:season:60920",
+            "sr:season:60928"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:20912",
+          "competition_name": "Bitburger Open (GPG), Doubles",
+          "season_count": 3,
+          "match_count": 98,
+          "season_ids": [
+            "sr:season:47016",
+            "sr:season:60918",
+            "sr:season:60930"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:20914",
+          "competition_name": "Bitburger Open (GPG), Women Doubles",
+          "season_count": 3,
+          "match_count": 88,
+          "season_ids": [
+            "sr:season:47020",
+            "sr:season:60922",
+            "sr:season:60932"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:20916",
+          "competition_name": "Bitburger Open (GPG), Mixed Doubles",
+          "season_count": 3,
+          "match_count": 94,
+          "season_ids": [
+            "sr:season:47022",
+            "sr:season:60924",
+            "sr:season:60934"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:21504",
+          "competition_name": "Hong Kong Open, MD",
+          "season_count": 3,
+          "match_count": 112,
+          "season_ids": [
+            "sr:season:110447",
+            "sr:season:123527",
+            "sr:season:134909"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:21506",
+          "competition_name": "Hong Kong Open, XD",
+          "season_count": 3,
+          "match_count": 108,
+          "season_ids": [
+            "sr:season:110451",
+            "sr:season:123529",
+            "sr:season:134911"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:21508",
+          "competition_name": "Hong Kong Open, WD",
+          "season_count": 3,
+          "match_count": 94,
+          "season_ids": [
+            "sr:season:110455",
+            "sr:season:123533",
+            "sr:season:134915"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:21510",
+          "competition_name": "Hong Kong Open, WS",
+          "season_count": 3,
+          "match_count": 105,
+          "season_ids": [
+            "sr:season:110453",
+            "sr:season:123531",
+            "sr:season:134913"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:21556",
+          "competition_name": "Scottish Open, MS",
+          "season_count": 3,
+          "match_count": 171,
+          "season_ids": [
+            "sr:season:60102",
+            "sr:season:73045",
+            "sr:season:137030"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:21558",
+          "competition_name": "Scottish Open, MD",
+          "season_count": 3,
+          "match_count": 104,
+          "season_ids": [
+            "sr:season:60108",
+            "sr:season:73049",
+            "sr:season:137032"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:21560",
+          "competition_name": "Scottish Open, XD",
+          "season_count": 3,
+          "match_count": 106,
+          "season_ids": [
+            "sr:season:60112",
+            "sr:season:73053",
+            "sr:season:137034"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:21562",
+          "competition_name": "Scottish Open, WS",
+          "season_count": 3,
+          "match_count": 114,
+          "season_ids": [
+            "sr:season:60106",
+            "sr:season:73047",
+            "sr:season:137036"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:21564",
+          "competition_name": "Scottish Open, WD",
+          "season_count": 3,
+          "match_count": 92,
+          "season_ids": [
+            "sr:season:60110",
+            "sr:season:73051",
+            "sr:season:137038"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:22008",
+          "competition_name": "Korea Masters, MS",
+          "season_count": 3,
+          "match_count": 140,
+          "season_ids": [
+            "sr:season:112594",
+            "sr:season:125787",
+            "sr:season:136720"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:22010",
+          "competition_name": "Korea Masters, MD",
+          "season_count": 3,
+          "match_count": 109,
+          "season_ids": [
+            "sr:season:112596",
+            "sr:season:125789",
+            "sr:season:136722"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:22014",
+          "competition_name": "Korea Masters, Women, WS",
+          "season_count": 3,
+          "match_count": 112,
+          "season_ids": [
+            "sr:season:112600",
+            "sr:season:125793",
+            "sr:season:136726"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:22016",
+          "competition_name": "Korea Masters, Women, WD",
+          "season_count": 3,
+          "match_count": 84,
+          "season_ids": [
+            "sr:season:112602",
+            "sr:season:125795",
+            "sr:season:136728"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:22018",
+          "competition_name": "Korea Masters, XD",
+          "season_count": 3,
+          "match_count": 101,
+          "season_ids": [
+            "sr:season:112598",
+            "sr:season:125791",
+            "sr:season:136724"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:22624",
+          "competition_name": "Irish Open, MS",
+          "season_count": 2,
+          "match_count": 111,
+          "season_ids": [
+            "sr:season:72941",
+            "sr:season:136864"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:22626",
+          "competition_name": "Irish Open, MD",
+          "season_count": 2,
+          "match_count": 73,
+          "season_ids": [
+            "sr:season:72945",
+            "sr:season:136866"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:22628",
+          "competition_name": "Irish Open, XD",
+          "season_count": 2,
+          "match_count": 79,
+          "season_ids": [
+            "sr:season:72949",
+            "sr:season:136868"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:22630",
+          "competition_name": "Irish Open, WS",
+          "season_count": 2,
+          "match_count": 94,
+          "season_ids": [
+            "sr:season:72943",
+            "sr:season:136870"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:22632",
+          "competition_name": "Irish Open, WD",
+          "season_count": 2,
+          "match_count": 45,
+          "season_ids": [
+            "sr:season:72947",
+            "sr:season:136872"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23249",
+          "competition_name": "World Tour Finals, MS",
+          "season_count": 3,
+          "match_count": 45,
+          "season_ids": [
+            "sr:season:113767",
+            "sr:season:126939",
+            "sr:season:137898"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23251",
+          "competition_name": "World Tour Finals, WS",
+          "season_count": 3,
+          "match_count": 44,
+          "season_ids": [
+            "sr:season:113775",
+            "sr:season:126945",
+            "sr:season:137904"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23253",
+          "competition_name": "World Tour Finals, MD",
+          "season_count": 3,
+          "match_count": 45,
+          "season_ids": [
+            "sr:season:113771",
+            "sr:season:126941",
+            "sr:season:137900"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23255",
+          "competition_name": "World Tour Finals, XD",
+          "season_count": 3,
+          "match_count": 45,
+          "season_ids": [
+            "sr:season:113773",
+            "sr:season:126943",
+            "sr:season:137902"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23257",
+          "competition_name": "World Tour Finals, WD",
+          "season_count": 3,
+          "match_count": 44,
+          "season_ids": [
+            "sr:season:113777",
+            "sr:season:126947",
+            "sr:season:137906"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23409",
+          "competition_name": "Thailand Masters, MS",
+          "season_count": 3,
+          "match_count": 145,
+          "season_ids": [
+            "sr:season:115181",
+            "sr:season:128177",
+            "sr:season:139120"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23411",
+          "competition_name": "Thailand Masters, MD",
+          "season_count": 3,
+          "match_count": 112,
+          "season_ids": [
+            "sr:season:115183",
+            "sr:season:128179",
+            "sr:season:139122"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23413",
+          "competition_name": "Thailand Masters, XD",
+          "season_count": 3,
+          "match_count": 79,
+          "season_ids": [
+            "sr:season:115185",
+            "sr:season:128183",
+            "sr:season:139124"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23415",
+          "competition_name": "Thailand Masters, WS",
+          "season_count": 3,
+          "match_count": 127,
+          "season_ids": [
+            "sr:season:115187",
+            "sr:season:128185",
+            "sr:season:139126"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23417",
+          "competition_name": "Thailand Master, WD",
+          "season_count": 3,
+          "match_count": 120,
+          "season_ids": [
+            "sr:season:115189",
+            "sr:season:128189",
+            "sr:season:139128"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23445",
+          "competition_name": "Malaysia Masters, Singles",
+          "season_count": 3,
+          "match_count": 133,
+          "season_ids": [
+            "sr:season:105639",
+            "sr:season:118645",
+            "sr:season:130747"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23447",
+          "competition_name": "Malaysia Masters, Doubles",
+          "season_count": 3,
+          "match_count": 106,
+          "season_ids": [
+            "sr:season:105641",
+            "sr:season:118647",
+            "sr:season:130749"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23449",
+          "competition_name": "Malaysia Masters, Mixed Doubles",
+          "season_count": 3,
+          "match_count": 107,
+          "season_ids": [
+            "sr:season:105643",
+            "sr:season:118649",
+            "sr:season:130751"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23451",
+          "competition_name": "Malaysia Masters, Women, Singles",
+          "season_count": 3,
+          "match_count": 112,
+          "season_ids": [
+            "sr:season:105645",
+            "sr:season:118651",
+            "sr:season:130753"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23453",
+          "competition_name": "Malaysia Masters, Women, Doubles",
+          "season_count": 3,
+          "match_count": 98,
+          "season_ids": [
+            "sr:season:105647",
+            "sr:season:118653",
+            "sr:season:130755"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23499",
+          "competition_name": "Estonian International, MS",
+          "season_count": 1,
+          "match_count": 95,
+          "season_ids": [
+            "sr:season:138366"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23501",
+          "competition_name": "Estonian International, MD",
+          "season_count": 1,
+          "match_count": 43,
+          "season_ids": [
+            "sr:season:138368"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23503",
+          "competition_name": "Estonian International, XD",
+          "season_count": 1,
+          "match_count": 44,
+          "season_ids": [
+            "sr:season:138370"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23505",
+          "competition_name": "Estonian International, WS",
+          "season_count": 1,
+          "match_count": 72,
+          "season_ids": [
+            "sr:season:138372"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23507",
+          "competition_name": "Estonian International, WD",
+          "season_count": 1,
+          "match_count": 23,
+          "season_ids": [
+            "sr:season:138374"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23525",
+          "competition_name": "Swedish Open, MS",
+          "season_count": 1,
+          "match_count": 73,
+          "season_ids": [
+            "sr:season:138578"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23527",
+          "competition_name": "Swedish Open, MD",
+          "season_count": 1,
+          "match_count": 38,
+          "season_ids": [
+            "sr:season:138580"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23529",
+          "competition_name": "Swedish Open, XD",
+          "season_count": 1,
+          "match_count": 44,
+          "season_ids": [
+            "sr:season:138582"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23531",
+          "competition_name": "Swedish Open, WS",
+          "season_count": 1,
+          "match_count": 61,
+          "season_ids": [
+            "sr:season:138584"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23533",
+          "competition_name": "Swedish Open, WD",
+          "season_count": 1,
+          "match_count": 30,
+          "season_ids": [
+            "sr:season:138586"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23731",
+          "competition_name": "India Open, Singles",
+          "season_count": 3,
+          "match_count": 110,
+          "season_ids": [
+            "sr:season:114795",
+            "sr:season:127739",
+            "sr:season:138568"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23733",
+          "competition_name": "India Open, Doubles",
+          "season_count": 3,
+          "match_count": 99,
+          "season_ids": [
+            "sr:season:114797",
+            "sr:season:127741",
+            "sr:season:138570"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23735",
+          "competition_name": "India Open, Women, Doubles",
+          "season_count": 3,
+          "match_count": 102,
+          "season_ids": [
+            "sr:season:114803",
+            "sr:season:127747",
+            "sr:season:138576"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23737",
+          "competition_name": "India Open, Mixed Doubles",
+          "season_count": 3,
+          "match_count": 99,
+          "season_ids": [
+            "sr:season:114799",
+            "sr:season:127743",
+            "sr:season:138572"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23739",
+          "competition_name": "India Open, Women, Singles",
+          "season_count": 3,
+          "match_count": 101,
+          "season_ids": [
+            "sr:season:114801",
+            "sr:season:127745",
+            "sr:season:138574"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23883",
+          "competition_name": "Swiss Open, MS",
+          "season_count": 3,
+          "match_count": 145,
+          "season_ids": [
+            "sr:season:116769",
+            "sr:season:129179",
+            "sr:season:140126"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23885",
+          "competition_name": "Swiss Open, MD",
+          "season_count": 3,
+          "match_count": 113,
+          "season_ids": [
+            "sr:season:116771",
+            "sr:season:129181",
+            "sr:season:140130"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23887",
+          "competition_name": "Swiss Open, XD",
+          "season_count": 3,
+          "match_count": 122,
+          "season_ids": [
+            "sr:season:116773",
+            "sr:season:129183",
+            "sr:season:140132"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23889",
+          "competition_name": "Swiss Open, WD",
+          "season_count": 3,
+          "match_count": 109,
+          "season_ids": [
+            "sr:season:116777",
+            "sr:season:129187",
+            "sr:season:140136"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23891",
+          "competition_name": "Swiss Open, WS",
+          "season_count": 3,
+          "match_count": 123,
+          "season_ids": [
+            "sr:season:116775",
+            "sr:season:129185",
+            "sr:season:140134"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23913",
+          "competition_name": "Austrian Open, Doubles",
+          "season_count": 3,
+          "match_count": 105,
+          "season_ids": [
+            "sr:season:75809",
+            "sr:season:83772",
+            "sr:season:130759"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23915",
+          "competition_name": "Austrian Open, Mixed Doubles",
+          "season_count": 3,
+          "match_count": 123,
+          "season_ids": [
+            "sr:season:75813",
+            "sr:season:83774",
+            "sr:season:130761"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23917",
+          "competition_name": "Austrian Open , Women, Singles",
+          "season_count": 3,
+          "match_count": 136,
+          "season_ids": [
+            "sr:season:75807",
+            "sr:season:83770",
+            "sr:season:130763"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23919",
+          "competition_name": "Austrian Open, Women, Doubles",
+          "season_count": 3,
+          "match_count": 85,
+          "season_ids": [
+            "sr:season:75811",
+            "sr:season:83778",
+            "sr:season:130765"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23987",
+          "competition_name": "German Open, Singles",
+          "season_count": 3,
+          "match_count": 135,
+          "season_ids": [
+            "sr:season:116089",
+            "sr:season:128801",
+            "sr:season:139818"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23989",
+          "competition_name": "German Open, Doubles",
+          "season_count": 3,
+          "match_count": 108,
+          "season_ids": [
+            "sr:season:116091",
+            "sr:season:128805",
+            "sr:season:139820"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23991",
+          "competition_name": "German Open, Mixed Doubles",
+          "season_count": 3,
+          "match_count": 113,
+          "season_ids": [
+            "sr:season:116093",
+            "sr:season:128807",
+            "sr:season:139822"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23993",
+          "competition_name": "German Open, Women Doubles",
+          "season_count": 3,
+          "match_count": 105,
+          "season_ids": [
+            "sr:season:116097",
+            "sr:season:128813",
+            "sr:season:139828"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:23995",
+          "competition_name": "German Open, Women Singles",
+          "season_count": 3,
+          "match_count": 117,
+          "season_ids": [
+            "sr:season:116095",
+            "sr:season:128811",
+            "sr:season:139826"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24029",
+          "competition_name": "Portugal International Championships, MS",
+          "season_count": 3,
+          "match_count": 254,
+          "season_ids": [
+            "sr:season:79617",
+            "sr:season:83278",
+            "sr:season:140098"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24031",
+          "competition_name": "Portugal International Championships, MD",
+          "season_count": 3,
+          "match_count": 100,
+          "season_ids": [
+            "sr:season:79619",
+            "sr:season:83282",
+            "sr:season:140100"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24033",
+          "competition_name": "Portugal International Championships, XD",
+          "season_count": 3,
+          "match_count": 100,
+          "season_ids": [
+            "sr:season:79621",
+            "sr:season:83286",
+            "sr:season:140102"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24035",
+          "competition_name": "Portugal International Championships, WS",
+          "season_count": 3,
+          "match_count": 151,
+          "season_ids": [
+            "sr:season:79623",
+            "sr:season:83280",
+            "sr:season:140104"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24037",
+          "competition_name": "Portugal International Championships, WD",
+          "season_count": 3,
+          "match_count": 69,
+          "season_ids": [
+            "sr:season:79625",
+            "sr:season:83284",
+            "sr:season:140106"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24273",
+          "competition_name": "Orleans Masters, Singles",
+          "season_count": 3,
+          "match_count": 143,
+          "season_ids": [
+            "sr:season:116541",
+            "sr:season:128913",
+            "sr:season:140366"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24275",
+          "competition_name": "Orleans Masters, Women, Singles",
+          "season_count": 3,
+          "match_count": 136,
+          "season_ids": [
+            "sr:season:116547",
+            "sr:season:128919",
+            "sr:season:140372"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24277",
+          "competition_name": "Orleans Masters, Doubles",
+          "season_count": 3,
+          "match_count": 112,
+          "season_ids": [
+            "sr:season:116543",
+            "sr:season:128915",
+            "sr:season:140368"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24279",
+          "competition_name": "Orleans Masters, Women, Doubles",
+          "season_count": 3,
+          "match_count": 97,
+          "season_ids": [
+            "sr:season:116549",
+            "sr:season:128921",
+            "sr:season:140374"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24281",
+          "competition_name": "Orleans Masters, Mixed Doubles",
+          "season_count": 3,
+          "match_count": 115,
+          "season_ids": [
+            "sr:season:116545",
+            "sr:season:128917",
+            "sr:season:140370"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24305",
+          "competition_name": "LI-NING China Masters, MS",
+          "season_count": 3,
+          "match_count": 97,
+          "season_ids": [
+            "sr:season:113160",
+            "sr:season:126327",
+            "sr:season:135173"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24307",
+          "competition_name": "LI-NING China Masters, WS",
+          "season_count": 3,
+          "match_count": 97,
+          "season_ids": [
+            "sr:season:113166",
+            "sr:season:126333",
+            "sr:season:135179"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24309",
+          "competition_name": "LI-NING China Masters, MD",
+          "season_count": 3,
+          "match_count": 88,
+          "season_ids": [
+            "sr:season:113162",
+            "sr:season:126329",
+            "sr:season:135175"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24311",
+          "competition_name": "LI-NING China Master, WD",
+          "season_count": 3,
+          "match_count": 97,
+          "season_ids": [
+            "sr:season:113168",
+            "sr:season:126335",
+            "sr:season:135181"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24313",
+          "competition_name": "LI-NING China Masters, XD",
+          "season_count": 3,
+          "match_count": 93,
+          "season_ids": [
+            "sr:season:113164",
+            "sr:season:126331",
+            "sr:season:135177"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24395",
+          "competition_name": "New Zealand Open, Singles",
+          "season_count": 3,
+          "match_count": 62,
+          "season_ids": [
+            "sr:season:52609",
+            "sr:season:65364",
+            "sr:season:76625"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24397",
+          "competition_name": "New Zealand Open, Women, Singles",
+          "season_count": 3,
+          "match_count": 62,
+          "season_ids": [
+            "sr:season:52611",
+            "sr:season:65366",
+            "sr:season:76627"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24399",
+          "competition_name": "New Zealand Open, Doubles",
+          "season_count": 3,
+          "match_count": 62,
+          "season_ids": [
+            "sr:season:52613",
+            "sr:season:65372",
+            "sr:season:76629"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24401",
+          "competition_name": "New Zealand Open, Women, Doubles",
+          "season_count": 3,
+          "match_count": 61,
+          "season_ids": [
+            "sr:season:52615",
+            "sr:season:65376",
+            "sr:season:76631"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24403",
+          "competition_name": "New Zealand Open, Mixed Doubles",
+          "season_count": 3,
+          "match_count": 62,
+          "season_ids": [
+            "sr:season:52617",
+            "sr:season:65378",
+            "sr:season:76633"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24470",
+          "competition_name": "European Championships, MD",
+          "season_count": 3,
+          "match_count": 79,
+          "season_ids": [
+            "sr:season:83124",
+            "sr:season:117423",
+            "sr:season:129928"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24472",
+          "competition_name": "European Championships, WS",
+          "season_count": 3,
+          "match_count": 116,
+          "season_ids": [
+            "sr:season:83132",
+            "sr:season:117419",
+            "sr:season:129924"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24474",
+          "competition_name": "European Championships, WD",
+          "season_count": 3,
+          "match_count": 81,
+          "season_ids": [
+            "sr:season:83130",
+            "sr:season:117425",
+            "sr:season:129922"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24476",
+          "competition_name": "European Championships, XD",
+          "season_count": 3,
+          "match_count": 79,
+          "season_ids": [
+            "sr:season:83126",
+            "sr:season:117421",
+            "sr:season:129926"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24592",
+          "competition_name": "Asia Championships, MS",
+          "season_count": 3,
+          "match_count": 93,
+          "season_ids": [
+            "sr:season:104777",
+            "sr:season:117359",
+            "sr:season:129855"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24594",
+          "competition_name": "Asia Championships, WS",
+          "season_count": 3,
+          "match_count": 93,
+          "season_ids": [
+            "sr:season:104783",
+            "sr:season:117365",
+            "sr:season:129861"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24596",
+          "competition_name": "Asia Championships, MD",
+          "season_count": 3,
+          "match_count": 93,
+          "season_ids": [
+            "sr:season:104779",
+            "sr:season:117361",
+            "sr:season:129857"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24598",
+          "competition_name": "Asia Championships, WD",
+          "season_count": 3,
+          "match_count": 97,
+          "season_ids": [
+            "sr:season:104785",
+            "sr:season:117367",
+            "sr:season:129863"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24600",
+          "competition_name": "Asia Championships, XD",
+          "season_count": 3,
+          "match_count": 93,
+          "season_ids": [
+            "sr:season:104781",
+            "sr:season:117363",
+            "sr:season:129859"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24676",
+          "competition_name": "Australian Open, Singles",
+          "season_count": 3,
+          "match_count": 138,
+          "season_ids": [
+            "sr:season:108657",
+            "sr:season:119433",
+            "sr:season:137010"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24678",
+          "competition_name": "Australian Open, Women Singles",
+          "season_count": 3,
+          "match_count": 112,
+          "season_ids": [
+            "sr:season:108663",
+            "sr:season:119439",
+            "sr:season:137016"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24680",
+          "competition_name": "Australian Open, Doubles",
+          "season_count": 3,
+          "match_count": 96,
+          "season_ids": [
+            "sr:season:108659",
+            "sr:season:119435",
+            "sr:season:137012"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24682",
+          "competition_name": "Australian Open, Women Doubles",
+          "season_count": 3,
+          "match_count": 88,
+          "season_ids": [
+            "sr:season:108665",
+            "sr:season:119441",
+            "sr:season:137018"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24684",
+          "competition_name": "Australian Open, Mixed Doubles",
+          "season_count": 3,
+          "match_count": 106,
+          "season_ids": [
+            "sr:season:108661",
+            "sr:season:119437",
+            "sr:season:137014"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24708",
+          "competition_name": "Slovenia International, Women, Singles",
+          "season_count": 1,
+          "match_count": 31,
+          "season_ids": [
+            "sr:season:83570"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24710",
+          "competition_name": "Slovenia International, Women, Doubles",
+          "season_count": 1,
+          "match_count": 25,
+          "season_ids": [
+            "sr:season:83576"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24712",
+          "competition_name": "Slovenia International, Doubles",
+          "season_count": 1,
+          "match_count": 33,
+          "season_ids": [
+            "sr:season:83574"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24714",
+          "competition_name": "Slovenia International, Mixed Doubles",
+          "season_count": 1,
+          "match_count": 31,
+          "season_ids": [
+            "sr:season:83578"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24868",
+          "competition_name": "BWF Thomas Cup",
+          "season_count": 3,
+          "match_count": 83,
+          "season_ids": [
+            "sr:season:88186",
+            "sr:season:93505",
+            "sr:season:117739"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24870",
+          "competition_name": "BWF Uber Cup",
+          "season_count": 3,
+          "match_count": 90,
+          "season_ids": [
+            "sr:season:53654",
+            "sr:season:88196",
+            "sr:season:117741"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24892",
+          "competition_name": "Thomas Cup, Singles",
+          "season_count": 1,
+          "match_count": 93,
+          "season_ids": [
+            "sr:season:117919"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24894",
+          "competition_name": "Thomas Cup, Doubles",
+          "season_count": 1,
+          "match_count": 64,
+          "season_ids": [
+            "sr:season:117921"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24896",
+          "competition_name": "Uber Cup, Singles",
+          "season_count": 1,
+          "match_count": 95,
+          "season_ids": [
+            "sr:season:117915"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:24898",
+          "competition_name": "Uber Cup, Doubles",
+          "season_count": 1,
+          "match_count": 62,
+          "season_ids": [
+            "sr:season:117917"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25149",
+          "competition_name": "US Open, Singles",
+          "season_count": 3,
+          "match_count": 140,
+          "season_ids": [
+            "sr:season:107609",
+            "sr:season:120013",
+            "sr:season:131709"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25151",
+          "competition_name": "US Open, Women Singles",
+          "season_count": 3,
+          "match_count": 117,
+          "season_ids": [
+            "sr:season:107617",
+            "sr:season:120019",
+            "sr:season:131715"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25153",
+          "competition_name": "US Open, Doubles",
+          "season_count": 3,
+          "match_count": 100,
+          "season_ids": [
+            "sr:season:107611",
+            "sr:season:120015",
+            "sr:season:131711"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25155",
+          "competition_name": "US Open, Women Doubles",
+          "season_count": 3,
+          "match_count": 74,
+          "season_ids": [
+            "sr:season:107619",
+            "sr:season:120021",
+            "sr:season:131717"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25157",
+          "competition_name": "US Open, Mixed Doubles",
+          "season_count": 3,
+          "match_count": 97,
+          "season_ids": [
+            "sr:season:107613",
+            "sr:season:120017",
+            "sr:season:131713"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25299",
+          "competition_name": "Canada Open (WT), Singles",
+          "season_count": 3,
+          "match_count": 143,
+          "season_ids": [
+            "sr:season:107223",
+            "sr:season:120431",
+            "sr:season:131920"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25301",
+          "competition_name": "Canada Open (WT), Doubles",
+          "season_count": 3,
+          "match_count": 106,
+          "season_ids": [
+            "sr:season:107225",
+            "sr:season:120433",
+            "sr:season:131922"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25303",
+          "competition_name": "Canada Open (WT), Mixed Doubles",
+          "season_count": 3,
+          "match_count": 95,
+          "season_ids": [
+            "sr:season:107227",
+            "sr:season:120435",
+            "sr:season:131924"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25305",
+          "competition_name": "Canada Open (WT), Women Singles",
+          "season_count": 3,
+          "match_count": 111,
+          "season_ids": [
+            "sr:season:107229",
+            "sr:season:120437",
+            "sr:season:131926"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25307",
+          "competition_name": "Canada Open (WT), Women Doubles",
+          "season_count": 3,
+          "match_count": 89,
+          "season_ids": [
+            "sr:season:107231",
+            "sr:season:120439",
+            "sr:season:131928"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25333",
+          "competition_name": "Malaysia Open, MS",
+          "season_count": 3,
+          "match_count": 94,
+          "season_ids": [
+            "sr:season:114537",
+            "sr:season:127519",
+            "sr:season:138356"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25335",
+          "competition_name": "Malaysia Open, MD",
+          "season_count": 3,
+          "match_count": 94,
+          "season_ids": [
+            "sr:season:114539",
+            "sr:season:127521",
+            "sr:season:138358"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25337",
+          "competition_name": "Malaysia Open, XD",
+          "season_count": 3,
+          "match_count": 95,
+          "season_ids": [
+            "sr:season:114541",
+            "sr:season:127523",
+            "sr:season:138360"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25339",
+          "competition_name": "Malaysia Open, WS",
+          "season_count": 3,
+          "match_count": 99,
+          "season_ids": [
+            "sr:season:114543",
+            "sr:season:127525",
+            "sr:season:138362"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25341",
+          "competition_name": "Malaysia Open, WD",
+          "season_count": 3,
+          "match_count": 96,
+          "season_ids": [
+            "sr:season:114545",
+            "sr:season:127527",
+            "sr:season:138364"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25497",
+          "competition_name": "Thailand Open (WT), Doubles",
+          "season_count": 3,
+          "match_count": 124,
+          "season_ids": [
+            "sr:season:105827",
+            "sr:season:118371",
+            "sr:season:130589"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25499",
+          "competition_name": "Thailand Open (WT), Mixed Doubles",
+          "season_count": 3,
+          "match_count": 122,
+          "season_ids": [
+            "sr:season:105829",
+            "sr:season:118377",
+            "sr:season:130595"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25501",
+          "competition_name": "Thailand Open (WT), Women Singles",
+          "season_count": 3,
+          "match_count": 130,
+          "season_ids": [
+            "sr:season:105833",
+            "sr:season:118373",
+            "sr:season:130591"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25503",
+          "competition_name": "Thailand Open (WT), Women Doubles",
+          "season_count": 3,
+          "match_count": 102,
+          "season_ids": [
+            "sr:season:105831",
+            "sr:season:118375",
+            "sr:season:130593"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25599",
+          "competition_name": "Singapore Open, Singles",
+          "season_count": 3,
+          "match_count": 96,
+          "season_ids": [
+            "sr:season:106179",
+            "sr:season:118919",
+            "sr:season:130881"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25601",
+          "competition_name": "Singapore Open, Doubles",
+          "season_count": 3,
+          "match_count": 93,
+          "season_ids": [
+            "sr:season:106181",
+            "sr:season:118921",
+            "sr:season:130883"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25603",
+          "competition_name": "Singapore Open, Mixed Doubles",
+          "season_count": 3,
+          "match_count": 92,
+          "season_ids": [
+            "sr:season:106183",
+            "sr:season:118923",
+            "sr:season:130885"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25605",
+          "competition_name": "Singapore Open, Women, Doubles",
+          "season_count": 3,
+          "match_count": 93,
+          "season_ids": [
+            "sr:season:106187",
+            "sr:season:118927",
+            "sr:season:130889"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25607",
+          "competition_name": "Singapore Open, Women, Singles",
+          "season_count": 3,
+          "match_count": 93,
+          "season_ids": [
+            "sr:season:106185",
+            "sr:season:118925",
+            "sr:season:130887"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25707",
+          "competition_name": "Akita Masters, Singles",
+          "season_count": 2,
+          "match_count": 93,
+          "season_ids": [
+            "sr:season:55739",
+            "sr:season:69818"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25709",
+          "competition_name": "Akita Masters, Women, Singles",
+          "season_count": 2,
+          "match_count": 61,
+          "season_ids": [
+            "sr:season:55741",
+            "sr:season:69820"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25711",
+          "competition_name": "Akita Masters , Doubles",
+          "season_count": 2,
+          "match_count": 58,
+          "season_ids": [
+            "sr:season:55743",
+            "sr:season:69822"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25713",
+          "competition_name": "Akita Masters, Women Doubles",
+          "season_count": 2,
+          "match_count": 57,
+          "season_ids": [
+            "sr:season:55745",
+            "sr:season:69824"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25715",
+          "competition_name": "Akita Masters , Mixed Doubles",
+          "season_count": 2,
+          "match_count": 57,
+          "season_ids": [
+            "sr:season:55747",
+            "sr:season:69826"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25717",
+          "competition_name": "Russian Open (WT), Singles",
+          "season_count": 3,
+          "match_count": 193,
+          "season_ids": [
+            "sr:season:35597",
+            "sr:season:42324",
+            "sr:season:55749"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25719",
+          "competition_name": "Russian Open (WT), Women Singles",
+          "season_count": 3,
+          "match_count": 62,
+          "season_ids": [
+            "sr:season:42328",
+            "sr:season:55751",
+            "sr:season:64667"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25721",
+          "competition_name": "Russian Open (WT), Doubles",
+          "season_count": 3,
+          "match_count": 52,
+          "season_ids": [
+            "sr:season:42320",
+            "sr:season:55753",
+            "sr:season:64661"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25723",
+          "competition_name": "Russian Open (WT), Women Doubles",
+          "season_count": 3,
+          "match_count": 48,
+          "season_ids": [
+            "sr:season:42326",
+            "sr:season:55755",
+            "sr:season:64665"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25725",
+          "competition_name": "Russian Open (WT), Mixed Doubles",
+          "season_count": 3,
+          "match_count": 63,
+          "season_ids": [
+            "sr:season:42322",
+            "sr:season:55757",
+            "sr:season:64663"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:25853",
+          "competition_name": "World Championships, Singles",
+          "season_count": 3,
+          "match_count": 189,
+          "season_ids": [
+            "sr:season:96905",
+            "sr:season:109227",
+            "sr:season:133995"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26302",
+          "competition_name": "Spain Masters, MS",
+          "season_count": 3,
+          "match_count": 135,
+          "season_ids": [
+            "sr:season:83558",
+            "sr:season:104007",
+            "sr:season:116959"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26304",
+          "competition_name": "Spain Masters, MD",
+          "season_count": 3,
+          "match_count": 104,
+          "season_ids": [
+            "sr:season:83560",
+            "sr:season:104009",
+            "sr:season:116961"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26306",
+          "competition_name": "Spain Masters, XD",
+          "season_count": 3,
+          "match_count": 112,
+          "season_ids": [
+            "sr:season:83562",
+            "sr:season:104011",
+            "sr:season:116963"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26308",
+          "competition_name": "Spain Masters, WS",
+          "season_count": 3,
+          "match_count": 107,
+          "season_ids": [
+            "sr:season:83568",
+            "sr:season:104013",
+            "sr:season:116965"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26310",
+          "competition_name": "Spain Masters, WD",
+          "season_count": 3,
+          "match_count": 100,
+          "season_ids": [
+            "sr:season:83564",
+            "sr:season:104015",
+            "sr:season:116967"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26312",
+          "competition_name": "Hyderabad Open (WT), Singles",
+          "season_count": 2,
+          "match_count": 94,
+          "season_ids": [
+            "sr:season:57252",
+            "sr:season:69176"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26314",
+          "competition_name": "Hyderabad Open (WT), Doubles",
+          "season_count": 2,
+          "match_count": 63,
+          "season_ids": [
+            "sr:season:57254",
+            "sr:season:69180"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26316",
+          "competition_name": "Hyderabad Open (WT), Mixed Doubles",
+          "season_count": 2,
+          "match_count": 62,
+          "season_ids": [
+            "sr:season:57256",
+            "sr:season:69184"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26318",
+          "competition_name": "Hyderabad Open (WT), Women",
+          "season_count": 2,
+          "match_count": 62,
+          "season_ids": [
+            "sr:season:57258",
+            "sr:season:69178"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26320",
+          "competition_name": "Hyderabad Open (WT), Women Doubles",
+          "season_count": 2,
+          "match_count": 62,
+          "season_ids": [
+            "sr:season:57260",
+            "sr:season:69182"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26466",
+          "competition_name": "China Open, MS",
+          "season_count": 3,
+          "match_count": 94,
+          "season_ids": [
+            "sr:season:110155",
+            "sr:season:123829",
+            "sr:season:132812"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26468",
+          "competition_name": "China Open, WS",
+          "season_count": 3,
+          "match_count": 99,
+          "season_ids": [
+            "sr:season:110181",
+            "sr:season:123835",
+            "sr:season:132818"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26470",
+          "competition_name": "China Open, MD",
+          "season_count": 3,
+          "match_count": 93,
+          "season_ids": [
+            "sr:season:110157",
+            "sr:season:123831",
+            "sr:season:132814"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26472",
+          "competition_name": "China Open, XD",
+          "season_count": 3,
+          "match_count": 97,
+          "season_ids": [
+            "sr:season:110179",
+            "sr:season:123833",
+            "sr:season:132816"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26474",
+          "competition_name": "China Open, WD",
+          "season_count": 3,
+          "match_count": 85,
+          "season_ids": [
+            "sr:season:110183",
+            "sr:season:123837",
+            "sr:season:132820"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26668",
+          "competition_name": "Korea Open, Singles",
+          "season_count": 3,
+          "match_count": 126,
+          "season_ids": [
+            "sr:season:107971",
+            "sr:season:122893",
+            "sr:season:135399"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26670",
+          "competition_name": "Korea Open, Women, Singles",
+          "season_count": 3,
+          "match_count": 102,
+          "season_ids": [
+            "sr:season:107975",
+            "sr:season:122899",
+            "sr:season:135405"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26672",
+          "competition_name": "Korea Open, Doubles",
+          "season_count": 3,
+          "match_count": 100,
+          "season_ids": [
+            "sr:season:107977",
+            "sr:season:122895",
+            "sr:season:135401"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26674",
+          "competition_name": "Korea Open, Women, Doubles",
+          "season_count": 3,
+          "match_count": 73,
+          "season_ids": [
+            "sr:season:107979",
+            "sr:season:122901",
+            "sr:season:135407"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26676",
+          "competition_name": "Korea Open, Mixed Doubles",
+          "season_count": 3,
+          "match_count": 96,
+          "season_ids": [
+            "sr:season:107981",
+            "sr:season:122897",
+            "sr:season:135403"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26680",
+          "competition_name": "Czech Open, MS",
+          "season_count": 1,
+          "match_count": 84,
+          "season_ids": [
+            "sr:season:135955"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26682",
+          "competition_name": "Czech Open, WS",
+          "season_count": 1,
+          "match_count": 50,
+          "season_ids": [
+            "sr:season:135957"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26684",
+          "competition_name": "Czech Open, MD",
+          "season_count": 1,
+          "match_count": 37,
+          "season_ids": [
+            "sr:season:135959"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26686",
+          "competition_name": "Czech Open, WD",
+          "season_count": 1,
+          "match_count": 25,
+          "season_ids": [
+            "sr:season:135961"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26688",
+          "competition_name": "Czech Open, XD",
+          "season_count": 1,
+          "match_count": 40,
+          "season_ids": [
+            "sr:season:135963"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26798",
+          "competition_name": "Chinese Taipei Open (WT), Singles",
+          "season_count": 3,
+          "match_count": 129,
+          "season_ids": [
+            "sr:season:106703",
+            "sr:season:123177",
+            "sr:season:130373"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26800",
+          "competition_name": "Chinese Taipei Open (WT), Women Singles",
+          "season_count": 3,
+          "match_count": 126,
+          "season_ids": [
+            "sr:season:106709",
+            "sr:season:123183",
+            "sr:season:130379"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26802",
+          "competition_name": "Chinese Taipei Open (WT), Doubles",
+          "season_count": 3,
+          "match_count": 124,
+          "season_ids": [
+            "sr:season:106705",
+            "sr:season:123179",
+            "sr:season:130375"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26804",
+          "competition_name": "Chinese Taipei Open (WT), Women Doubles",
+          "season_count": 3,
+          "match_count": 118,
+          "season_ids": [
+            "sr:season:106711",
+            "sr:season:123185",
+            "sr:season:130381"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26806",
+          "competition_name": "Chinese Taipei Open (WT), Mixed Doubles",
+          "season_count": 3,
+          "match_count": 123,
+          "season_ids": [
+            "sr:season:106707",
+            "sr:season:123181",
+            "sr:season:130377"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26990",
+          "competition_name": "Indonesia International Challenge, Singles",
+          "season_count": 1,
+          "match_count": 63,
+          "season_ids": [
+            "sr:season:72130"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26992",
+          "competition_name": "Indonesia International Challenge, Women, Singles",
+          "season_count": 1,
+          "match_count": 31,
+          "season_ids": [
+            "sr:season:72132"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26994",
+          "competition_name": "Indonesia International Challenge, Doubles",
+          "season_count": 1,
+          "match_count": 31,
+          "season_ids": [
+            "sr:season:72134"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26996",
+          "competition_name": "Indonesia International Challenge, Women Doubles",
+          "season_count": 1,
+          "match_count": 31,
+          "season_ids": [
+            "sr:season:72136"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:26998",
+          "competition_name": "Indonesia International Challenge, Mixed Doubles",
+          "season_count": 1,
+          "match_count": 31,
+          "season_ids": [
+            "sr:season:72138"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27008",
+          "competition_name": "Macau Open, MS",
+          "season_count": 3,
+          "match_count": 117,
+          "season_ids": [
+            "sr:season:72566",
+            "sr:season:124055",
+            "sr:season:133100"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27010",
+          "competition_name": "Macau Open, WS",
+          "season_count": 3,
+          "match_count": 104,
+          "season_ids": [
+            "sr:season:72568",
+            "sr:season:124061",
+            "sr:season:133106"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27012",
+          "competition_name": "Macau Open, MD",
+          "season_count": 3,
+          "match_count": 101,
+          "season_ids": [
+            "sr:season:72570",
+            "sr:season:124057",
+            "sr:season:133102"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27014",
+          "competition_name": "Macau Open, WD",
+          "season_count": 3,
+          "match_count": 99,
+          "season_ids": [
+            "sr:season:72572",
+            "sr:season:124063",
+            "sr:season:133108"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27016",
+          "competition_name": "Macau Open, XD",
+          "season_count": 3,
+          "match_count": 102,
+          "season_ids": [
+            "sr:season:72574",
+            "sr:season:124059",
+            "sr:season:133104"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27018",
+          "competition_name": "Hylo Open, MS",
+          "season_count": 3,
+          "match_count": 111,
+          "season_ids": [
+            "sr:season:112362",
+            "sr:season:125579",
+            "sr:season:136492"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27020",
+          "competition_name": "Hylo Open, WS",
+          "season_count": 3,
+          "match_count": 111,
+          "season_ids": [
+            "sr:season:112368",
+            "sr:season:125585",
+            "sr:season:136498"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27022",
+          "competition_name": "Hylo Open, MD",
+          "season_count": 3,
+          "match_count": 110,
+          "season_ids": [
+            "sr:season:112364",
+            "sr:season:125581",
+            "sr:season:136494"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27024",
+          "competition_name": "Hylo Open, WD",
+          "season_count": 3,
+          "match_count": 86,
+          "season_ids": [
+            "sr:season:112370",
+            "sr:season:125587",
+            "sr:season:136500"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27026",
+          "competition_name": "Hylo Open, XD",
+          "season_count": 3,
+          "match_count": 116,
+          "season_ids": [
+            "sr:season:112366",
+            "sr:season:125583",
+            "sr:season:136496"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27028",
+          "competition_name": "Hungarian International, MS",
+          "season_count": 2,
+          "match_count": 145,
+          "season_ids": [
+            "sr:season:72576",
+            "sr:season:136512"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27030",
+          "competition_name": "Hungarian International, WS",
+          "season_count": 2,
+          "match_count": 87,
+          "season_ids": [
+            "sr:season:72578",
+            "sr:season:136518"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27032",
+          "competition_name": "Hungarian International, MD",
+          "season_count": 2,
+          "match_count": 60,
+          "season_ids": [
+            "sr:season:72580",
+            "sr:season:136514"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27034",
+          "competition_name": "Hungarian International, WD",
+          "season_count": 2,
+          "match_count": 41,
+          "season_ids": [
+            "sr:season:72582",
+            "sr:season:136520"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27036",
+          "competition_name": "Hungarian International, XD",
+          "season_count": 2,
+          "match_count": 71,
+          "season_ids": [
+            "sr:season:72584",
+            "sr:season:136516"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27150",
+          "competition_name": "Fuzhou China Open, Singles",
+          "season_count": 2,
+          "match_count": 62,
+          "season_ids": [
+            "sr:season:59482",
+            "sr:season:72592"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27152",
+          "competition_name": "Fuzhou China Open, Women Singles",
+          "season_count": 2,
+          "match_count": 62,
+          "season_ids": [
+            "sr:season:59484",
+            "sr:season:72594"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27154",
+          "competition_name": "Fuzhou China Open, Doubles",
+          "season_count": 2,
+          "match_count": 62,
+          "season_ids": [
+            "sr:season:59486",
+            "sr:season:72596"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27156",
+          "competition_name": "Fuzhou China Open, Women Doubles",
+          "season_count": 2,
+          "match_count": 58,
+          "season_ids": [
+            "sr:season:59490",
+            "sr:season:72598"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27158",
+          "competition_name": "Fuzhou China Open, Mixed Doubles",
+          "season_count": 2,
+          "match_count": 62,
+          "season_ids": [
+            "sr:season:59488",
+            "sr:season:72600"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27256",
+          "competition_name": "Syed Modi India International, WS",
+          "season_count": 3,
+          "match_count": 97,
+          "season_ids": [
+            "sr:season:59898",
+            "sr:season:73061",
+            "sr:season:137174"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27258",
+          "competition_name": "Syed Modi India International, MD",
+          "season_count": 3,
+          "match_count": 97,
+          "season_ids": [
+            "sr:season:59902",
+            "sr:season:73063",
+            "sr:season:137170"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27260",
+          "competition_name": "Syed Modi India International, WD",
+          "season_count": 3,
+          "match_count": 96,
+          "season_ids": [
+            "sr:season:59904",
+            "sr:season:73065",
+            "sr:season:137176"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27262",
+          "competition_name": "Syed Modi India International, XD",
+          "season_count": 3,
+          "match_count": 97,
+          "season_ids": [
+            "sr:season:59906",
+            "sr:season:73067",
+            "sr:season:137172"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27334",
+          "competition_name": "Welsh International, MS",
+          "season_count": 1,
+          "match_count": 143,
+          "season_ids": [
+            "sr:season:137178"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27336",
+          "competition_name": "Welsh International, WS",
+          "season_count": 1,
+          "match_count": 58,
+          "season_ids": [
+            "sr:season:137184"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27338",
+          "competition_name": "Welsh International, MD",
+          "season_count": 1,
+          "match_count": 47,
+          "season_ids": [
+            "sr:season:137180"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27340",
+          "competition_name": "Welsh International, WD",
+          "season_count": 1,
+          "match_count": 34,
+          "season_ids": [
+            "sr:season:137186"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27342",
+          "competition_name": "Welsh International, XD",
+          "season_count": 1,
+          "match_count": 48,
+          "season_ids": [
+            "sr:season:137182"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27508",
+          "competition_name": "All England Open, Singles",
+          "season_count": 3,
+          "match_count": 96,
+          "season_ids": [
+            "sr:season:116551",
+            "sr:season:129047",
+            "sr:season:139972"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27510",
+          "competition_name": "All England Open, Women, Singles",
+          "season_count": 3,
+          "match_count": 96,
+          "season_ids": [
+            "sr:season:116557",
+            "sr:season:129053",
+            "sr:season:139978"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27512",
+          "competition_name": "All England Open, Doubles",
+          "season_count": 3,
+          "match_count": 93,
+          "season_ids": [
+            "sr:season:116553",
+            "sr:season:129049",
+            "sr:season:139974"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27514",
+          "competition_name": "All England Open, WD",
+          "season_count": 3,
+          "match_count": 95,
+          "season_ids": [
+            "sr:season:116559",
+            "sr:season:129055",
+            "sr:season:139980"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27516",
+          "competition_name": "All England Open, XD",
+          "season_count": 3,
+          "match_count": 97,
+          "season_ids": [
+            "sr:season:116555",
+            "sr:season:129051",
+            "sr:season:139976"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27544",
+          "competition_name": "BWF Superseries Finals, Singles",
+          "season_count": 3,
+          "match_count": 45,
+          "season_ids": [
+            "sr:season:9633",
+            "sr:season:12150",
+            "sr:season:36608"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27546",
+          "competition_name": "BWF Superseries Finals, Doubles",
+          "season_count": 3,
+          "match_count": 45,
+          "season_ids": [
+            "sr:season:61022",
+            "sr:season:61078",
+            "sr:season:61118"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27548",
+          "competition_name": "BWF Superseries Finals, Women, Singles",
+          "season_count": 3,
+          "match_count": 45,
+          "season_ids": [
+            "sr:season:61024",
+            "sr:season:61080",
+            "sr:season:61120"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27550",
+          "competition_name": "BWF Superseries Finals, Women Doubles",
+          "season_count": 3,
+          "match_count": 45,
+          "season_ids": [
+            "sr:season:61028",
+            "sr:season:61082",
+            "sr:season:61122"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27552",
+          "competition_name": "BWF Superseries Finals, Mixed Doubles",
+          "season_count": 3,
+          "match_count": 45,
+          "season_ids": [
+            "sr:season:61026",
+            "sr:season:61084",
+            "sr:season:61124"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27927",
+          "competition_name": "European Championships, MS",
+          "season_count": 3,
+          "match_count": 120,
+          "season_ids": [
+            "sr:season:83128",
+            "sr:season:117417",
+            "sr:season:129930"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27943",
+          "competition_name": "Indonesia Open, Singles",
+          "season_count": 3,
+          "match_count": 33,
+          "season_ids": [
+            "sr:season:106451",
+            "sr:season:119199",
+            "sr:season:131093"
+          ],
+          "error": null
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27945",
+          "competition_name": "Indonesia Open, Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:27945/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27947",
+          "competition_name": "Indonesia Open, Women Singles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:27947/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27949",
+          "competition_name": "Indonesia Open, Women Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:27949/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27951",
+          "competition_name": "Indonesia Open, Mixed Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:27951/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27955",
+          "competition_name": "Indonesia Masters, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:27955/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27957",
+          "competition_name": "Indonesia Masters, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:27957/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27959",
+          "competition_name": "Indonesia Masters, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:27959/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27961",
+          "competition_name": "Indonesia Masters, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:27961/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:27963",
+          "competition_name": "Indonesia Masters, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:27963/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28075",
+          "competition_name": "Slovak Open, Singles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28075/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28077",
+          "competition_name": "Slovak Open, Women, Singles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28077/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28079",
+          "competition_name": "Slovak Open, Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28079/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28081",
+          "competition_name": "Slovak Open, Women, Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28081/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28083",
+          "competition_name": "Slovak Open, Mixed Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28083/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28129",
+          "competition_name": "Polish Open, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28129/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28131",
+          "competition_name": "Polish Open, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28131/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28133",
+          "competition_name": "Polish Open, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28133/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28135",
+          "competition_name": "Polish Open, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28135/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28137",
+          "competition_name": "Polish Open, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28137/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28488",
+          "competition_name": "Denmark Challenge, Singles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28488/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28490",
+          "competition_name": "Denmark Challenge, Women, Singles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28490/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28492",
+          "competition_name": "Denmark Challenge, Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28492/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28494",
+          "competition_name": "Denmark Challenge, Women, Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28494/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28496",
+          "competition_name": "Denmark Challenge, Mixed Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28496/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28522",
+          "competition_name": "Slovenia International, Singles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28522/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28524",
+          "competition_name": "Sudirman Cup",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28524/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28571",
+          "competition_name": "Croatian International, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28571/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28573",
+          "competition_name": "Croatian International, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28573/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28575",
+          "competition_name": "Croatian International, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28575/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28577",
+          "competition_name": "Croatian International, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28577/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28579",
+          "competition_name": "Croatian International, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28579/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28751",
+          "competition_name": "Latvia International, Singles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28751/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28753",
+          "competition_name": "Latvia International, Women, Singles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28753/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28755",
+          "competition_name": "Latvia International, Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28755/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28757",
+          "competition_name": "Latvia International, Women, Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28757/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28759",
+          "competition_name": "Latvia International,Mixed Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28759/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28795",
+          "competition_name": "Azerbaijan International, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28795/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28797",
+          "competition_name": "Azerbaijan International, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28797/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28799",
+          "competition_name": "Azerbaijan International, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28799/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28801",
+          "competition_name": "Azerbaijan International, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28801/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:28803",
+          "competition_name": "Azerbaijan International, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:28803/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:30452",
+          "competition_name": "Yozu Indonesia Masters, Singles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:30452/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:30454",
+          "competition_name": "Yozu Indonesia Masters, Women, Singles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:30454/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:30456",
+          "competition_name": "Yozu Indonesia Masters, Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:30456/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:30458",
+          "competition_name": "Yozu Indonesia Masters, Women, Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:30458/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:30460",
+          "competition_name": "Yozu Indonesia Masters, Mixed Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:30460/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:30462",
+          "competition_name": "Bulgarian International Championship, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:30462/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:30464",
+          "competition_name": "Bulgarian International Championship, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:30464/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:30466",
+          "competition_name": "Bulgarian International Championship, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:30466/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:30468",
+          "competition_name": "Bulgarian International Championship, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:30468/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:30470",
+          "competition_name": "Bulgarian International Championship, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:30470/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:30482",
+          "competition_name": "Brazil International Series, Singles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:30482/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:30484",
+          "competition_name": "Brazil International Series, Women, Singles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:30484/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:30486",
+          "competition_name": "Brazil International Series, Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:30486/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:30488",
+          "competition_name": "Brazil International Series, Women, Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:30488/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:30490",
+          "competition_name": "Brazil International Series, Mixed, Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:30490/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:30814",
+          "competition_name": "Norwegian International, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:30814/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:30816",
+          "competition_name": "Norwegian International, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:30816/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:30818",
+          "competition_name": "Norwegian International, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:30818/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:31053",
+          "competition_name": "Slovenia Future Series, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:31053/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:31055",
+          "competition_name": "Slovenia Future Series, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:31055/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:31061",
+          "competition_name": "Slovenia Future Series, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:31061/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:31063",
+          "competition_name": "Slovenia Future Series, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:31063/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:31065",
+          "competition_name": "Slovenia Future Series, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:31065/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:31103",
+          "competition_name": "Norwegian International, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:31103/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:31105",
+          "competition_name": "Norwegian International, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:31105/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:31661",
+          "competition_name": "Iceland International, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:31661/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:31663",
+          "competition_name": "Iceland International, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:31663/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:31665",
+          "competition_name": "Iceland International, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:31665/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:31667",
+          "competition_name": "Iceland International, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:31667/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:31669",
+          "competition_name": "Iceland International, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:31669/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:33606",
+          "competition_name": "Yonex Thailand Open, Singles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:33606/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:33608",
+          "competition_name": "Yonex Thailand Open 2021, Women Singles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:33608/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:33610",
+          "competition_name": "Yonex Thailand Open 2021, Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:33610/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:33612",
+          "competition_name": "Yonex Thailand Open 2021, Women Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:33612/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:33614",
+          "competition_name": "Yonex Thailand Open 2021, Mixed Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:33614/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:33620",
+          "competition_name": "Toyota Thailand Open, Singles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:33620/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:33622",
+          "competition_name": "Toyota Thailand Open, Women Singles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:33622/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:33624",
+          "competition_name": "Toyota Thailand Open, Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:33624/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:33626",
+          "competition_name": "Toyota Thailand Open, Women Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:33626/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:33628",
+          "competition_name": "Toyota Thailand Open, Mixed Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:33628/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:35558",
+          "competition_name": "India International (IC), Singles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:35558/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:35560",
+          "competition_name": "India International (IC), Women Singles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:35560/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:35562",
+          "competition_name": "India International (IC), Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:35562/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:35564",
+          "competition_name": "India International (IC), Women Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:35564/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:35566",
+          "competition_name": "India International (IC), Mixed Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:35566/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:36105",
+          "competition_name": "Odisha Masters, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:36105/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:36107",
+          "competition_name": "Odisha Masters, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:36107/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:36109",
+          "competition_name": "Odisha Masters, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:36109/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:36111",
+          "competition_name": "Odisha Masters, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:36111/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:36113",
+          "competition_name": "Odisha Masters, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:36113/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:36635",
+          "competition_name": "Luxembourg Open, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:36635/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:36637",
+          "competition_name": "Luxembourg Open, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:36637/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:36639",
+          "competition_name": "Luxembourg Open, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:36639/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:36641",
+          "competition_name": "Luxembourg Open, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:36641/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:36643",
+          "competition_name": "Luxembourg Open, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:36643/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:37005",
+          "competition_name": "Bonn International, Singles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:37005/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:37007",
+          "competition_name": "Bonn International, Women, Singles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:37007/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:37009",
+          "competition_name": "Bonn International, Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:37009/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:37011",
+          "competition_name": "Bonn International, Women Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:37011/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:37013",
+          "competition_name": "Bonn International, Mixed Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:37013/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:37709",
+          "competition_name": "Nouvelle Aquitaine, Singles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:37709/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:37711",
+          "competition_name": "Nouvelle Aquitaine, Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:37711/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:37713",
+          "competition_name": "Nouvelle Aquitaine, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:37713/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:37715",
+          "competition_name": "Nouvelle Aquitaine, Women, Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:37715/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:37717",
+          "competition_name": "Nouvelle Aquitaine, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:37717/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:38035",
+          "competition_name": "Thailand Open, MS, Qualifying",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:38035/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:38829",
+          "competition_name": "Malta International, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:38829/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:38831",
+          "competition_name": "Malta International, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:38831/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:38833",
+          "competition_name": "Malta International, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:38833/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:38835",
+          "competition_name": "Malta International, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:38835/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:38837",
+          "competition_name": "Malta International, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:38837/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:39867",
+          "competition_name": "Slovenia Open, Singles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:39867/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:39869",
+          "competition_name": "Slovenia Open, Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:39869/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:39871",
+          "competition_name": "Slovenia Open, Women Singles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:39871/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:39873",
+          "competition_name": "Slovenia Open, Women Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:39873/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:39875",
+          "competition_name": "Slovenia Open, Mixed Doubles",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:39875/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:40955",
+          "competition_name": "Indonesia Super 100, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:40955/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:40957",
+          "competition_name": "Indonesia Super 100, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:40957/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:40959",
+          "competition_name": "Indonesia Super 100, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:40959/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:40961",
+          "competition_name": "Indonesia Super 100, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:40961/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:40963",
+          "competition_name": "Indonesia Super 100, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:40963/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41152",
+          "competition_name": "Kaohsiung Masters, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41152/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41154",
+          "competition_name": "Kaohsiung Masters, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41154/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41156",
+          "competition_name": "Kaohsiung Masters, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41156/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41158",
+          "competition_name": "Kaohsiung Masters, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41158/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41160",
+          "competition_name": "Kaohsiung Masters, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41160/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41256",
+          "competition_name": "Arctic Open, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41256/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41258",
+          "competition_name": "Arctic Open, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41258/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41260",
+          "competition_name": "Arctic Open, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41260/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41262",
+          "competition_name": "Arctic Open, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41262/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41264",
+          "competition_name": "Arctic Open, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41264/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41314",
+          "competition_name": "Abu Dhabi Masters, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41314/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41316",
+          "competition_name": "Abu Dhabi Masters, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41316/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41318",
+          "competition_name": "Abu Dhabi Masters, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41318/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41320",
+          "competition_name": "Abu Dhabi Masters, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41320/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41322",
+          "competition_name": "Abu Dhabi Masters, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41322/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41386",
+          "competition_name": "Indonesia Masters II, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41386/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41388",
+          "competition_name": "Indonesia Masters II, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41388/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41390",
+          "competition_name": "Indonesia Masters II, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41390/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41392",
+          "competition_name": "Indonesia Masters II, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41392/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41394",
+          "competition_name": "Indonesia Masters II, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41394/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41464",
+          "competition_name": "Malaysia Masters Super 100, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41464/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41466",
+          "competition_name": "Malaysia Masters Super 100, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41466/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41468",
+          "competition_name": "Malaysia Masters Super 100, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41468/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41474",
+          "competition_name": "Malaysia Masters Super 100, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41474/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41476",
+          "competition_name": "Malaysia Masters Super 100, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41476/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41618",
+          "competition_name": "Kumamoto Masters Japan, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41618/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41620",
+          "competition_name": "Kumamoto Masters Japan, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41620/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41622",
+          "competition_name": "Kumamoto Masters Japan, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41622/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41624",
+          "competition_name": "Kumamoto Masters Japan, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41624/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41626",
+          "competition_name": "Kumamoto Masters Japan, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41626/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41728",
+          "competition_name": "Ruichang China Masters, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41728/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41730",
+          "competition_name": "Ruichang China Masters, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41730/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41732",
+          "competition_name": "Ruichang China Masters, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41732/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41734",
+          "competition_name": "Ruichang China Masters, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41734/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41736",
+          "competition_name": "Ruichang China Masters, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41736/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41861",
+          "competition_name": "Guwahati Masters, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41861/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41863",
+          "competition_name": "Guwahati Masters, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41863/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41865",
+          "competition_name": "Guwahati Masters, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41865/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41867",
+          "competition_name": "Guwahati Masters, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41867/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:41869",
+          "competition_name": "Guwahati Masters, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:41869/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:43583",
+          "competition_name": "Baoji China Masters, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:43583/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:43585",
+          "competition_name": "Baoji China Masters, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:43585/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:43587",
+          "competition_name": "Baoji China Masters, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:43587/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:43589",
+          "competition_name": "Baoji China Masters, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:43589/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:43591",
+          "competition_name": "Baoji China Masters, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:43591/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:44529",
+          "competition_name": "Turkiye International Challenge, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:44529/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:44531",
+          "competition_name": "Turkiye International Challenge, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:44531/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:44533",
+          "competition_name": "Turkiye International Challenge, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:44533/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:44535",
+          "competition_name": "Turkiye International Challenge, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:44535/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:44537",
+          "competition_name": "Turkiye International Challenge, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:44537/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:44615",
+          "competition_name": "Malaysia Super 100, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:44615/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:44619",
+          "competition_name": "Malaysia Super 100, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:44619/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:44621",
+          "competition_name": "Malaysia Super 100, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:44621/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:44623",
+          "competition_name": "Malaysia Super 100, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:44623/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:44625",
+          "competition_name": "Malaysia Super 100, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:44625/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:47407",
+          "competition_name": "Italian Open, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:47407/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:47409",
+          "competition_name": "Italian Open, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:47409/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:47411",
+          "competition_name": "Italian Open, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:47411/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:47413",
+          "competition_name": "Italian Open, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:47413/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:47415",
+          "competition_name": "Italian Open, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:47415/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:47878",
+          "competition_name": "U17 EU Youth Olympic Festival, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:47878/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:47880",
+          "competition_name": "U17 EU Youth Olympic Festival, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:47880/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:47882",
+          "competition_name": "U17 EU Youth Olympic Festival, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:47882/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:48673",
+          "competition_name": "Lithuanian International 2025, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:48673/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:48675",
+          "competition_name": "Lithuanian International 2025, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:48675/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:48677",
+          "competition_name": "Lithuanian International 2025, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:48677/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:48679",
+          "competition_name": "Lithuanian International 2025, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:48679/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:48681",
+          "competition_name": "Lithuanian International 2025, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:48681/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:48685",
+          "competition_name": "Belgian International 2025, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:48685/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:48687",
+          "competition_name": "Belgian International 2025, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:48687/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:48949",
+          "competition_name": "Al Ain Masters, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:48949/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:48951",
+          "competition_name": "Al Ain Masters, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:48951/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:48953",
+          "competition_name": "Al Ain Masters, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:48953/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:48955",
+          "competition_name": "Al Ain Masters, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:48955/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:48957",
+          "competition_name": "Al Ain Masters, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:48957/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:49546",
+          "competition_name": "Turkiye International Championships, MS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:49546/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:49548",
+          "competition_name": "Turkiye International Championships, MD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:49548/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:49550",
+          "competition_name": "Turkiye International Championships, XD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:49550/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:49552",
+          "competition_name": "Turkiye International Championships, WS",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:49552/seasons.json failed after retries due to 429 Too Many Requests"
+        },
+        {
+          "sport": "badminton",
+          "competition_id": "sr:competition:49554",
+          "competition_name": "Turkiye International Championships, WD",
+          "season_count": 0,
+          "match_count": 0,
+          "season_ids": [],
+          "error": "season fetch failed: GET https://api.sportradar.com/badminton/trial/v2/en/competitions/sr:competition:49554/seasons.json failed after retries due to 429 Too Many Requests"
+        }
+      ]
     }
   },
-  "total_competition_count": 0,
-  "total_season_count": 0,
-  "total_match_count": 0
+  "total_competition_count": 483,
+  "total_season_count": 720,
+  "total_match_count": 25417
 }
